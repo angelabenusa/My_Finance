@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Suma wydatków</title>
+        </head>
+        <body>
+            <h1>Całkowite wydatki</h1>
+            <h4>Całkowity wydatki ze wszystkich kategorii: {{ total_expenses|default:"0.00" }}zł</h4>
+            <h5><a href="{% url 'wallet' %}">Powrót do portfela</a></p>
+
+        </body>
+        </html>
+{% endblock %}

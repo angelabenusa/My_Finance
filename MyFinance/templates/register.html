@@ -1,0 +1,20 @@
+{#{% extends 'base.html' %}#}
+
+{% block content %}
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rejestracja nowego użytkownika</title>
+</head>
+<body>
+    <h1>Rejestracja nowego użytkownika</h1>
+    <form action="/register/" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <p><button type="submit">Zarejestruj się</button></p>
+    </form>
+{% endblock %}
+</body>
+</html>

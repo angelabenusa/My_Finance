@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Wydatki</title>
+        </head>
+        <body>
+            <h1>Wydatki</h1>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <p><button type="submit">Dodaj wydatek</button></p>
+            </form>
+        </body>
+        </html>
+{% endblock %}

@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block content %}
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%; /* Adjust width as needed */
+            margin: 20px auto; /* Center the table */
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2; /* Light gray background for header */
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Alternate row color */
+        }
+        tr:hover {
+            background-color: #e0e0e0; /* Hover color */
+        }
+        table, th, td {
+            border: 1px solid transparent; /* Transparent border */
+        }
+    </style>
+
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+        <h1>Wydatki w kategorii "{{ category.name }}"</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Wartość</th>
+                    <th>Data</th>
+                    <th>Nazwa kategorii</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {% for expense in expenses %}
+
+                        <td>{{ expense.value }}</td>
+                        <td>{{ expense.date }}</td>
+                        <td>{{ expense.category.name }}</td>
+
+                {% empty %}
+                    <tr>
+                        <td colspan="3">Brak dostępnych wydatków.</td>
+                    </tr>
+                {% endfor %}
+{#         #}
+            </tbody>
+        </table>
+    <h6><a href="/category_expenses_list/">Powrót do listy kategorii</a></h6>
+    </div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+        <h2>Logowanie</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit">
+        </form>
+        <div class="container">
+            <ul>
+                {% for item in resources %}
+                <li>
+                    {{ item.name }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <p><a href="{% url 'register' %}">Nie masz konta? Zarejestruj się</a></p>
+        <p><a href="{% url 'wallets' %}">Powrót do strony głównej</a></p>
+    </div>
+{% endblock %}
+

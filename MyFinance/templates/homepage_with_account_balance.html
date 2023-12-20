@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Główna strona MyFinance</title>
+        </head>
+        <body>
+            <h1><strong>MyFinance - aplikacja do zarządzania budżetem domowym</strong></h1>
+
+            <h2>Stan konta</h2>
+            <h5> {{ total_income|default:"0.00" }}zł</h5>
+        </body>
+        </html>
+{% endblock %}

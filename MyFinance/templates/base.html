@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>MyFinance - aplikacja do zarządzania budżetem</title>
+    <!-- Favicon assets/favicon.ico-->
+    <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico'  %}" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+
+    <style>
+        .navbar-nav {
+            flex-wrap: nowrap;
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 5px;
+        }
+
+        .navbar-nav .nav-item a {
+            white-space: nowrap;
+        }
+
+        .navbar-brand {
+            margin-right: auto;
+        }
+        body {
+        padding-top: 60px;
+        }
+        .navbar{
+        margin-bottom: 50px !important;
+        }
+
+    </style>
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+
+{#    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">#}
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'wallets' %}">MyFinance</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'login' %}">Zaloguj się</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'homepage_with_account_balance' %}">Strona główna</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'wallets' %}">Portfele</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'monthly_income_list' %}">Dochody</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'monthly_expenses_list' %}">Wydatki</a></li>
+{#                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/transactions/">Transakcje</a></li>#}
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'about' %}">O nas</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'contact' %}">Kontakt</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{% url 'logout' %}">Wyloguj</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+{#        <header class="masthead text-center" style="width: 100%; padding: 0;">#}
+{#        <header class="masthead bg-primary text-white text-center" style="width: 100%; padding: 0;">#}
+{#            <div class=" d-flex align-items-center flex-column" style="height: 100vh;">#}
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>

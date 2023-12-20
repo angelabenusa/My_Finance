@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block content %}
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%; /* Adjust width as needed */
+            margin: 20px auto; /* Center the table */
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2; /* Light gray background for header */
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Alternate row color */
+        }
+        tr:hover {
+            background-color: #e0e0e0; /* Hover color */
+        }
+        table, th, td {
+            border: 1px solid transparent; /* Transparent border */
+        }
+    </style>
+
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+        <form method="post">
+                {% csrf_token %}
+                <h5>Dodaj nową kategorię dochodów</h5>
+                {{ form.as_p }}
+                <p><input type="submit" value="Dodaj kategorię"></p>
+            </form>
+
+        <h5>Lista kategorii dochodów</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nazwa kategorii</th>
+                    <th>Edytuj</th>
+                    <th>Usuń</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for category in categories %}
+                    <tr>
+                        <td><a href="/detailed_category_income_list/{{ category.id }}/">{{ category.name }}</a></td>
+
+                        <td>
+                            <a href="/category_income_list/{{ category.id }}/edit/">Edytuj</a>
+                        </td>
+                        <td>
+                            <a href="/category_income_list/{{ category.id }}/delete/">Usuń</a>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="3">Brak dostępnych kategorii.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <h6><p><a href="/monthly_income_list/">Powrót do listy dochodów</a></p></h6>
+    </div>
+{% endblock %}

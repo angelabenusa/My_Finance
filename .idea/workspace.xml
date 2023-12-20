@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53378d54-481d-4c74-b938-e8eb1059943e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2XAQ2SnVN847DoseYh61LW6lcj4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/coderslab/CRM",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coderslab\diploma\MyFinance\templates" />
+      <recent name="D:\coderslab\diploma\MyFinance\static\css" />
+      <recent name="D:\coderslab\diploma" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.diploma">
+    <configuration name="diploma" type="Python.DjangoServer" factoryName="Django server">
+      <module name="diploma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="diploma.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_category_income_list_view_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFinance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_category_income_list_view_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_detailed_category_income_list_view_negative" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFinance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_detailed_category_income_list_view_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_home_page_account_balanse_view_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFinance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_home_page_account_balanse_view_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_home_page_account_balanse_view_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFinance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_home_page_account_balanse_view_get&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.test_show_wallets_view_get" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyFinance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_show_wallets_view_get&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for tests.test_category_income_list_view_post" />
+        <item itemvalue="Python tests.pytest for tests.test_home_page_account_balanse_view_1" />
+        <item itemvalue="Python tests.pytest for tests.test_home_page_account_balanse_view_get" />
+        <item itemvalue="Python tests.pytest for tests.test_show_wallets_view_get" />
+        <item itemvalue="Python tests.pytest for tests.test_detailed_category_income_list_view_negative" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53378d54-481d-4c74-b938-e8eb1059943e" name="Changes" comment="" />
+      <created>1698069196709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698069196709</updated>
+      <workItem from="1698069197727" duration="7778000" />
+      <workItem from="1698131657944" duration="38569000" />
+      <workItem from="1698261202151" duration="458000" />
+      <workItem from="1698261712241" duration="8463000" />
+      <workItem from="1698315076756" duration="28404000" />
+      <workItem from="1698400786784" duration="7395000" />
+      <workItem from="1698653712685" duration="17787000" />
+      <workItem from="1698910811787" duration="16835000" />
+      <workItem from="1698949596564" duration="1238000" />
+      <workItem from="1698951270383" duration="6134000" />
+      <workItem from="1698997447578" duration="6615000" />
+      <workItem from="1699020354353" duration="164000" />
+      <workItem from="1699020615943" duration="4861000" />
+      <workItem from="1699261234903" duration="15935000" />
+      <workItem from="1699282327120" duration="3706000" />
+      <workItem from="1699301881695" duration="957000" />
+      <workItem from="1699302917952" duration="3180000" />
+      <workItem from="1699342348905" duration="16008000" />
+      <workItem from="1699432895834" duration="3756000" />
+      <workItem from="1699437797625" duration="9691000" />
+      <workItem from="1699519102765" duration="1881000" />
+      <workItem from="1699524193399" duration="3264000" />
+      <workItem from="1699527596740" duration="5338000" />
+      <workItem from="1699533928126" duration="2132000" />
+      <workItem from="1699537075389" duration="4460000" />
+      <workItem from="1699557051030" duration="294000" />
+      <workItem from="1699602353560" duration="4346000" />
+      <workItem from="1699608401079" duration="10976000" />
+      <workItem from="1699867508087" duration="6562000" />
+      <workItem from="1699875043596" duration="3483000" />
+      <workItem from="1699944955642" duration="1850000" />
+      <workItem from="1699949910587" duration="2867000" />
+      <workItem from="1699954563023" duration="238000" />
+      <workItem from="1699954809925" duration="4000" />
+      <workItem from="1699954842442" duration="90000" />
+      <workItem from="1699954993275" duration="298000" />
+      <workItem from="1699955386793" duration="1563000" />
+      <workItem from="1699957341764" duration="18821000" />
+      <workItem from="1699986854279" duration="95000" />
+      <workItem from="1700035022714" duration="345000" />
+      <workItem from="1700076411631" duration="574000" />
+      <workItem from="1700124639138" duration="3205000" />
+      <workItem from="1700128034641" duration="19043000" />
+      <workItem from="1700204322056" duration="14910000" />
+      <workItem from="1700232964689" duration="2458000" />
+      <workItem from="1700251419682" duration="8146000" />
+      <workItem from="1700305433823" duration="1783000" />
+      <workItem from="1700501850819" duration="1914000" />
+      <workItem from="1700506865272" duration="7941000" />
+      <workItem from="1700554498024" duration="17302000" />
+      <workItem from="1700592780084" duration="7475000" />
+      <workItem from="1700636417411" duration="20473000" />
+      <workItem from="1700675771763" duration="7419000" />
+      <workItem from="1700736419151" duration="10404000" />
+      <workItem from="1700749468494" duration="1422000" />
+      <workItem from="1700766670856" duration="2602000" />
+      <workItem from="1700824005775" duration="5837000" />
+      <workItem from="1700842086284" duration="4805000" />
+      <workItem from="1700910169968" duration="9963000" />
+      <workItem from="1700933570076" duration="1907000" />
+      <workItem from="1700935535678" duration="5062000" />
+      <workItem from="1701072260673" duration="2981000" />
+      <workItem from="1701076052376" duration="18442000" />
+      <workItem from="1701254118909" duration="178000" />
+      <workItem from="1703096098825" duration="2714000" />
+      <workItem from="1703099956955" duration="800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_expenses_to_wallet_view_post.coverage" NAME="pytest for tests.test_add_expenses_to_wallet_view_post Coverage Results" MODIFIED="1701080935841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_add_expenses_to_wallet_view_negative.coverage" NAME="pytest for tests.test_edit_add_expenses_to_wallet_view_negative Coverage Results" MODIFIED="1701082277301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_category_income_list_view_get.coverage" NAME="pytest for tests.test_category_income_list_view_get Coverage Results" MODIFIED="1700857552660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_category_expenses_list_view.coverage" NAME="pytest for tests.test_edit_category_expenses_list_view Coverage Results" MODIFIED="1701077720383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_income_expenses_to_wallet_view_post.coverage" NAME="pytest for tests.test_add_income_expenses_to_wallet_view_post Coverage Results" MODIFIED="1700660165187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_add_expenses_to_wallet_view_positive.coverage" NAME="pytest for tests.test_edit_add_expenses_to_wallet_view_positive Coverage Results" MODIFIED="1701082375422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_monthly_income_list_view_positive.coverage" NAME="pytest for tests.test_delete_monthly_income_list_view_positive Coverage Results" MODIFIED="1700938539814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_monthly_expenses_list_view_post.coverage" NAME="pytest for tests.test_monthly_expenses_list_view_post Coverage Results" MODIFIED="1701086538750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_income_expenses_to_wallet_view_get_negative.coverage" NAME="pytest for tests.test_add_income_expenses_to_wallet_view_get_negative Coverage Results" MODIFIED="1701081909265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_wallet_view.coverage" NAME="pytest for tests.test_delete_wallet_view Coverage Results" MODIFIED="1700769197020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_category_income_list_view_negative.coverage" NAME="pytest for tests.test_delete_category_income_list_view_negative Coverage Results" MODIFIED="1700689103326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_monthly_income_list_view_negative.coverage" NAME="pytest for tests.test_delete_monthly_income_list_view_negative Coverage Results" MODIFIED="1701082638242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_monthly_income_list_view_get.coverage" NAME="pytest for tests.test_monthly_income_list_view_get Coverage Results" MODIFIED="1701085576445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_category_expenses_view_post.coverage" NAME="pytest for tests.test_add_category_expenses_view_post Coverage Results" MODIFIED="1700689977658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_detailed_category_income_list_view.coverage" NAME="pytest for tests.test_detailed_category_income_list_view Coverage Results" MODIFIED="1701080216803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_in_tests_py.coverage" NAME="pytest in tests.py Coverage Results" MODIFIED="1701096245708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_show_wallets_view_post.coverage" NAME="pytest for tests.test_show_wallets_view_post Coverage Results" MODIFIED="1701080496306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_category_expenses_list_view_post.coverage" NAME="pytest for tests.test_category_expenses_list_view_post Coverage Results" MODIFIED="1701087390315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_show_wallets_view_get.coverage" NAME="pytest for tests.test_show_wallets_view_get Coverage Results" MODIFIED="1701087659727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_income_expenses_to_wallet_view_get.coverage" NAME="pytest for tests.test_add_income_expenses_to_wallet_view_get Coverage Results" MODIFIED="1701081270392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_sum_income_view_positive.coverage" NAME="pytest for tests.test_sum_income_view_positive Coverage Results" MODIFIED="1700642085163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_monthly_expenses_list_view_negative.coverage" NAME="pytest for tests.test_edit_monthly_expenses_list_view_negative Coverage Results" MODIFIED="1701083287002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_monthly_expenses_list_view_positive.coverage" NAME="pytest for tests.test_edit_monthly_expenses_list_view_positive Coverage Results" MODIFIED="1701083122095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_category_expenses_list_view_negative.coverage" NAME="pytest for tests.test_edit_category_expenses_list_view_negative Coverage Results" MODIFIED="1700688262552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_home_page_account_balanse_view_1.coverage" NAME="pytest for tests.test_home_page_account_balanse_view_1 Coverage Results" MODIFIED="1701093013634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_category_income_view_post.coverage" NAME="pytest for tests.test_add_category_income_view_post Coverage Results" MODIFIED="1700682589204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_category_income_list_view.coverage" NAME="pytest for tests.test_edit_category_income_list_view Coverage Results" MODIFIED="1701077407338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_category_income_list_view_negative.coverage" NAME="pytest for tests.test_category_income_list_view_negative Coverage Results" MODIFIED="1700683634768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_contact_view_get.coverage" NAME="pytest for tests.test_contact_view_get Coverage Results" MODIFIED="1701078700107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_income_view_get.coverage" NAME="pytest for tests.test_add_income_view_get Coverage Results" MODIFIED="1698309382743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_index_view.coverage" NAME="pytest for tests.test_index_view Coverage Results" MODIFIED="1698309147345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_user_create_view_get.coverage" NAME="pytest for tests.test_user_create_view_get Coverage Results" MODIFIED="1700681850266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_monthly_income_list_view_positive.coverage" NAME="pytest for tests.test_edit_monthly_income_list_view_positive Coverage Results" MODIFIED="1701082448629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_expenses_to_wallet_view_negative.coverage" NAME="pytest for tests.test_add_expenses_to_wallet_view_negative Coverage Results" MODIFIED="1701080984467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_home_page_account_balanse_view_get.coverage" NAME="pytest for tests.test_home_page_account_balanse_view_get Coverage Results" MODIFIED="1701092526862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_monthly_income_list_view_negative.coverage" NAME="pytest for tests.test_edit_monthly_income_list_view_negative Coverage Results" MODIFIED="1701082536468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_contact_message_view_negative.coverage" NAME="pytest for tests.test_contact_message_view_negative Coverage Results" MODIFIED="1700912820411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_monthly_expenses_list_view_positive.coverage" NAME="pytest for tests.test_delete_monthly_expenses_list_view_positive Coverage Results" MODIFIED="1701083467047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_user_create_view_post.coverage" NAME="pytest for tests.test_user_create_view_post Coverage Results" MODIFIED="1700681872382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_contact_message_view_positive.coverage" NAME="pytest for tests.test_contact_message_view_positive Coverage Results" MODIFIED="1700737262709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_detailed_category_expenses_list_view.coverage" NAME="pytest for tests.test_detailed_category_expenses_list_view Coverage Results" MODIFIED="1701080105251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_category_expenses_list_view.coverage" NAME="pytest for tests.test_delete_category_expenses_list_view Coverage Results" MODIFIED="1701077921995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_wallet_view_negative.coverage" NAME="pytest for tests.test_edit_wallet_view_negative Coverage Results" MODIFIED="1701080731787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_income_to_wallet_view_negative.coverage" NAME="pytest for tests.test_add_income_to_wallet_view_negative Coverage Results" MODIFIED="1701084103688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_category_income_list_view_post.coverage" NAME="pytest for tests.test_category_income_list_view_post Coverage Results" MODIFIED="1701106424536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_category_income_view_get.coverage" NAME="pytest for tests.test_add_category_income_view_get Coverage Results" MODIFIED="1700682546366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_wallet_view_positive.coverage" NAME="pytest for tests.test_edit_wallet_view_positive Coverage Results" MODIFIED="1701080587497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_monthly_expenses_list_view_negative.coverage" NAME="pytest for tests.test_delete_monthly_expenses_list_view_negative Coverage Results" MODIFIED="1701083623835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_about_view_positive.coverage" NAME="pytest for tests.test_about_view_positive Coverage Results" MODIFIED="1701078616379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_category_expenses_list_view_negative.coverage" NAME="pytest for tests.test_delete_category_expenses_list_view_negative Coverage Results" MODIFIED="1700689690772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_category_expenses_list_view_negative.coverage" NAME="pytest for tests.test_category_expenses_list_view_negative Coverage Results" MODIFIED="1701078388887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_about_view_negative.coverage" NAME="pytest for tests.test_about_view_negative Coverage Results" MODIFIED="1701078648684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_detailed_category_expenses_list_view_negative.coverage" NAME="pytest for tests.test_detailed_category_expenses_list_view_negative Coverage Results" MODIFIED="1701080123884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_add_income_to_wallet_view_positive.coverage" NAME="pytest for tests.test_edit_add_income_to_wallet_view_positive Coverage Results" MODIFIED="1701081979758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_add_income_to_wallet_view_negative.coverage" NAME="pytest for tests.test_edit_add_income_to_wallet_view_negative Coverage Results" MODIFIED="1701082061276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_category_expenses_view_get.coverage" NAME="pytest for tests.test_add_category_expenses_view_get Coverage Results" MODIFIED="1701078223686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_add_income_to_wallet_view_post.coverage" NAME="pytest for tests.test_add_income_to_wallet_view_post Coverage Results" MODIFIED="1701081049604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$views.coverage" NAME="views Coverage Results" MODIFIED="1699955257254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_monthly_income_list_view_post.coverage" NAME="pytest for tests.test_monthly_income_list_view_post Coverage Results" MODIFIED="1701084913912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_edit_category_income_list_view_negative.coverage" NAME="pytest for tests.test_edit_category_income_list_view_negative Coverage Results" MODIFIED="1700688323797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_detailed_category_income_list_view_negative.coverage" NAME="pytest for tests.test_detailed_category_income_list_view_negative Coverage Results" MODIFIED="1701087600492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_monthly_expenses_list_view_get.coverage" NAME="pytest for tests.test_monthly_expenses_list_view_get Coverage Results" MODIFIED="1701087300722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_dd_income_view_post.coverage" NAME="pytest for tests.test_dd_income_view_post Coverage Results" MODIFIED="1698312912095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_login_view_positive.coverage" NAME="pytest for tests.test_login_view_positive Coverage Results" MODIFIED="1700681662740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_category_expenses_list_view_get.coverage" NAME="pytest for tests.test_category_expenses_list_view_get Coverage Results" MODIFIED="1700690245463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_contact_view_post.coverage" NAME="pytest for tests.test_contact_view_post Coverage Results" MODIFIED="1700737239152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_login_view_negative.coverage" NAME="pytest for tests.test_login_view_negative Coverage Results" MODIFIED="1700681692391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_wallet_view_negative.coverage" NAME="pytest for tests.test_delete_wallet_view_negative Coverage Results" MODIFIED="1701080850122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_logout_view_negative.coverage" NAME="pytest for tests.test_logout_view_negative Coverage Results" MODIFIED="1700681830242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_logout_view_positive.coverage" NAME="pytest for tests.test_logout_view_positive Coverage Results" MODIFIED="1700681772727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1701073316779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_wallet_view_positive.coverage" NAME="pytest for tests.test_delete_wallet_view_positive Coverage Results" MODIFIED="1701080791161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+    <SUITE FILE_PATH="coverage/diploma$pytest_for_tests_test_delete_category_income_list_view.coverage" NAME="pytest for tests.test_delete_category_income_list_view Coverage Results" MODIFIED="1700911872838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyFinance" />
+  </component>
+</project>

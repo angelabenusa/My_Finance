@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block content %}
+<style>
+    .table-container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .table-container table {
+        border-collapse: collapse;
+        width: 48%; /* Adjust width as needed */
+        margin: 20px 0; /* Adjust margin as needed */
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2; /* Light gray background for header */
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Alternate row color */
+    }
+
+    tr:hover {
+        background-color: #e0e0e0; /* Hover color */
+    }
+
+    table, th, td {
+        border: 1px solid transparent; /* Transparent border */
+    }
+</style>
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh;">
+    <title>Portfel "{{ wallet.name }}"</title>
+
+    <body>
+        <h1>Portfel "{{ wallet.name }}"</h1>
+{##}
+{#        <div class="table-container">#}
+{#            <div>#}
+{#                <h1>Lista zarobków</h1>#}
+{#                <table>#}
+{#                    <thead>#}
+{#                        <tr>#}
+{#                            <th>Wartość</th>#}
+{#                            <th>Data</th>#}
+{#                            <th>Kategoria</th>#}
+{#                        </tr>#}
+{#                    </thead>#}
+{#                    <tbody>#}
+{#                        {% for income in incomes %}#}
+{#                            <tr>#}
+{#                                <td>{{ income.value }}</td>#}
+{#                                <td>{{ income.date }}</td>#}
+{#                                <td>{{ income.category }}</td>#}
+{#                            </tr>#}
+{#                        {% empty %}#}
+{#                            <tr>#}
+{#                                <td colspan="3">Brak danych.</td>#}
+{#                            </tr>#}
+{#                        {% endfor %}#}
+{#                    </tbody>#}
+{#                </table>#}
+{#                <h6><a href="/category_income_list/">Dodaj przychód do portfela</a></h6>#}
+{#            </div>#}
+
+            <div>
+                <h1>Lista wydatków</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Wartość</th>
+                            <th>Data</th>
+                            <th>Kategoria</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for expense in expenses %}
+                            <tr>
+                                <td>{{ expense.value }}</td>
+                                <td>{{ expense.date }}</td>
+                                <td>{{ expense.category }}</td>
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td colspan="3">Brak danych.</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <h6><a href="/add_expense_to_wallet/{{ wallet.id }}/">Dodaj wydatek do portfela</a></h6>
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}
